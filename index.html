@@ -1,1 +1,19 @@
+{% extends 'base.html' %}
 
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block body %}
+    <div class="features">
+        <h1>Homepage</h1>
+        <p>hi, i'm Sofia! welcome to my website. ready to start a journey with me?</p>
+        <div class="parent">
+            <a href="{{ url_for('day1') }}" class="btn btn-warning">start!</a>
+        </div>
+        <p>  </p>
+        <div class="parent">
+            <iframe src="https://www.google.com/maps/d/embed?mid=10yWPmoV30cObizozV44C1M2vFCZdhug&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+        </div>
+    </div>
+{% endblock %}
