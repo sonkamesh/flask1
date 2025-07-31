@@ -1,10 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}
+    day 1
+{% endblock %}
+
+{% block body %}
+    <h2>Day 1  <i class="fa-solid fa-plane fa-sm" style="color: #000000;"></i>  Batumi</h2>
+    <p class="text-center">In the afternoon we got to Batumi, checked into our apartment and went out exploring the city.</p>
+
+    <div class="container" style="display: flex; flex-wrap: wrap">
+        <figure>
+            <img src="static/img/day1.1.jpg" width="245" height="320">
+            <figcaption>Batumi Cathedral</figcaption>
+        </figure>
+        <figure>
+            <img src="static/img/day1.4.jpg" width="245" height="320">
+            <figcaption>Batumi Piazza Square</figcaption>
+        </figure>
+        <figure>
+            <img src="static/img/day1.8.jpg" width="245" height="320">
+            <figcaption>6th May Park</figcaption>
+        </figure>
+    </div>
+
+    <div class="container" style="display: flex; flex-wrap: wrap">
+        <figure>
+            <img src="static/img/day1.2.jpg" width="245" height="320">
+        </figure>
+        <figure>
+            <img src="static/img/day1.3.jpg" width="245" height="320">
+        </figure>
+        <figure>
+            <img src="static/img/day1.5.jpg" width="245" height="320">
+        </figure>
+    </div>
+
+    <div class="container" style="display: flex; flex-wrap: wrap">
+        <figure>
+            <img src="static/img/day1.6.jpg" width="245" height="320">
+        </figure>
+        <figure>
+            <img src="static/img/day1.7.jpg" width="245" height="320">
+        </figure>
+    </div>
+    <p class="text-center">
+        just random photos of the city<br>
+        later we had dinner and returned to our apartment
+    </p>
+{% endblock %}
