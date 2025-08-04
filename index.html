@@ -13,15 +13,15 @@
 <body>
     <aside>
         <h3>Navigation</h3>
-        <a href="{{ url_for('index') }}">Home</a><br>
-        <a href="{{ url_for('about') }}">About me</a>
+        <a href="index.html">Home</a><br>
+        <a href="templates/about.html">About me</a>
         <section class="accordion">
             <input type="checkbox" name="collapse" id="handle1">
             <a class="handle">
                 <label for="handle1">Timeline  <i class="fa-solid fa-caret-down" style="color: #000000;"></i></label>
             </a>
             <div class="content">
-                <a href="{{ url_for('day1') }}"><i class="fa-solid fa-minus fa-2xs" style="color: #000000;"></i>  day 1</a><br>
+                <a href="templates/day1.html"><i class="fa-solid fa-minus fa-2xs" style="color: #000000;"></i>  day 1</a><br>
                 <a><i class="fa-solid fa-minus fa-2xs" style="color: #000000;"></i>  day 2</a><br>
                 <a><i class="fa-solid fa-minus fa-2xs" style="color: #000000;"></i>  day 3</a><br>
                 <a><i class="fa-solid fa-minus fa-2xs" style="color: #000000;"></i>  day 4</a><br>
@@ -49,7 +49,7 @@
             <h1>Homepage</h1>
             <p>hi, i'm Sofia! welcome to my website. ready to start a journey with me?</p>
             <div class="parent">
-                <a href="{{ url_for('day1') }}" class="btn btn-warning">start!</a>
+                <a href="templates/day1.html" class="btn btn-warning">start!</a>
             </div>
             <p>  </p>
             <div class="parent">
