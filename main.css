@@ -112,3 +112,9 @@ main .parent {
     display: flex;
     justify-content: space-around;
 }
+
+main script {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+}
