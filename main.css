@@ -113,8 +113,9 @@ main .parent {
     justify-content: space-around;
 }
 
-main script {
-    top: 0px;
-    right: 0px;
-    position: fixed;
+main .search {
+    top: 5px;
+    right: 5px;
+    width: 250px;
+    height: 10px;
 }
